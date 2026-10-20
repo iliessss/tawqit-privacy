@@ -8,12 +8,13 @@
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
-      margin: 40px;
+      margin: 40px auto;
+      padding: 0 20px;
       max-width: 900px;
+      color: #222;
     }
-    h1, h2 {
-      color: #111;
-    }
+    h1, h2 { color: #111; }
+    a { color: #2C2A5A; }
   </style>
 </head>
 <body>
@@ -21,56 +22,78 @@
 <h1>Politique de confidentialité – Tawqit</h1>
 
 <p>
-L’application <strong>Tawqit</strong> respecte pleinement la vie privée de ses utilisateurs.
-Cette politique explique comment les données sont utilisées.
+L’application <strong>Tawqit</strong> (iOS et Android) et le site <a href="https://tawqit.org">tawqit.org</a>
+sont édités par l’association <strong>LOGARITHMES</strong>, association loi 1901 déclarée à Roubaix (France),
+RNA W595046717, qui est responsable du traitement des données au sens du RGPD.
+Tawqit a été conçue pour collecter le moins de données possible.
 </p>
 
-<h2>1. Données collectées</h2>
+<h2>1. Aucun compte, aucune publicité, aucun traceur</h2>
 <p>
-Tawqit <strong>ne collecte, ne stocke et ne partage aucune donnée personnelle</strong>.
+Tawqit ne demande pas de création de compte, n’affiche pas de publicité, n’intègre aucun outil de mesure d’audience
+ni de suivi publicitaire, et ne vend ni ne partage aucune donnée.
 </p>
 
 <h2>2. Localisation</h2>
 <p>
-La localisation de l’utilisateur est utilisée <strong>uniquement sur l’appareil</strong> afin de calculer les horaires de prière.
+Si vous l’autorisez, la position de l’appareil sert à déterminer votre ville et à calculer les horaires de prière.
+Le calcul des horaires est effectué <strong>sur l’appareil</strong>. La position n’est jamais enregistrée sur nos
+serveurs ni associée à votre identité. Vous pouvez aussi choisir une ville manuellement sans activer la localisation.
+</p>
+
+<h2>3. Données météo et altitude (services tiers)</h2>
+<p>
+Pour affiner le calcul (réfraction atmosphérique, altitude), l’application interroge deux services tiers en leur
+envoyant <strong>uniquement les coordonnées géographiques de la ville sélectionnée</strong>, sans aucun identifiant
+personnel ni identifiant d’appareil :
 </p>
 <ul>
-  <li>aucune transmission à des serveurs</li>
-  <li>aucun stockage</li>
-  <li>aucun partage avec des tiers</li>
+  <li><a href="https://open-meteo.com/en/terms">Open-Meteo</a> (température et pression atmosphérique) ;</li>
+  <li><a href="https://www.opentopodata.org/">Open Topo Data</a> (altitude).</li>
 </ul>
-
-<h2>3. Notifications</h2>
 <p>
-Tawqit peut envoyer des notifications locales pour informer des horaires de prière.
-Aucune donnée n’est transmise à des services externes.
+Ces services reçoivent, comme tout serveur web, l’adresse IP de l’appareil au moment de la requête. Si la requête
+échoue, l’application utilise des valeurs par défaut et continue de fonctionner hors ligne.
 </p>
 
-<h2>4. Services tiers</h2>
+<h2>4. Notifications</h2>
 <p>
-Tawqit n’utilise aucun service tiers collectant des données personnelles.
+Les notifications (rappels de prière, rappels occasionnels de soutien) sont programmées et affichées
+<strong>localement</strong> par l’appareil. Aucune donnée n’est envoyée à un service de notification externe.
 </p>
 
-<h2>5. Sécurité</h2>
+<h2>5. Données conservées sur l’appareil</h2>
 <p>
-Toutes les fonctionnalités fonctionnent localement sur l’appareil de l’utilisateur.
+Vos réglages (ville, méthode de calcul, angles, préférences de notification) sont stockés uniquement sur votre
+appareil et supprimés avec l’application.
 </p>
 
-<h2>6. Modifications</h2>
+<h2>6. Dons</h2>
 <p>
-Cette politique peut être mise à jour. Toute modification sera publiée sur cette page.
+Les dons proposés dans l’application sont traités sur le site de la plateforme <a href="https://donorbox.org/tawqit">Donorbox</a>,
+qui applique sa propre politique de confidentialité. Aucune donnée bancaire ne transite par Tawqit.
 </p>
 
-<h2>7. Contact</h2>
+<h2>7. Vos droits</h2>
 <p>
-Pour toute question :
+Conformément au RGPD, vous pouvez exercer vos droits d’accès, de rectification et d’effacement en écrivant à
+<a href="mailto:contact@tawqit.org">contact@tawqit.org</a>. Tawqit ne détenant aucune donnée personnelle vous
+concernant, ces demandes porteront en pratique sur les échanges par e-mail.
 </p>
 
+<h2>8. Modifications</h2>
 <p>
-📧 <a href="mailto:contact@tawqit.org">contact@tawqit.org</a>
+Cette politique peut être mise à jour. Toute modification sera publiée sur cette page et sur
+<a href="https://tawqit.org/#confidentialite">tawqit.org</a>.
 </p>
 
-<p><em>Dernière mise à jour : février 2026</em></p>
+<h2>9. Contact</h2>
+<p>
+Association LOGARITHMES — <a href="mailto:contact@tawqit.org">contact@tawqit.org</a><br>
+Mentions légales : <a href="https://tawqit.org/#mentions-legales">tawqit.org/#mentions-legales</a>
+</p>
+
+<p><em>Dernière mise à jour : 20 octobre 2026</em></p>
 
 </body>
 </html>
